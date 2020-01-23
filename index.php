@@ -29,41 +29,33 @@
                 </div>
             </div>
         </div>
+        <form action="/index.php">
         <div class="w3-display-left">
-            <div class="w3-dropdown-click">
-                <button onclick="myFunction()" class="w3-button">Fare Type</button>
-                <div id="fareType" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
-                    <a href="#" class="w3-bar-item w3-button">Round Trip</a>
-                    <a href="#" class="w3-bar-item w3-button">One Way</a>
-                    <a href="#" class="w3-bar-item w3-button">Multi-City</a>
-                </div>
-            </div>
+                <select name="Fare Type">
+                    <option value="roundtrip">Round Trip</option>
+                    <option value="oneway">One Way</option>
+                    <option value="multicity">Multi-City</option>
+                </select>
         </div>
         <div class="w3-display-right">
-            <div class="w3-dropdown-click">
-                <button onclick="myFunction3()" class="w3-button">Passengers</button>
-                <div id="travelers" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
-                    <a href="#" class="w3-bar-item w3-button">1</a>
-                    <a href="#" class="w3-bar-item w3-button">2</a>
-                    <a href="#" class="w3-bar-item w3-button">3</a>
-                    <a href="#" class="w3-bar-item w3-button">4</a>
-                    <a href="#" class="w3-bar-item w3-button">5</a>
-                    <a href="#" class="w3-bar-item w3-button">6</a>
-                    <a href="#" class="w3-bar-item w3-button">7</a>
-                    <a href="#" class="w3-bar-item w3-button">8</a>
-                    <a href="#" class="w3-bar-item w3-button">9</a>
-                </div>
-            </div>
+            <select name="Passengers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
         </div>
         <div class="w3-display-middle">
-            <div class="w3-dropdown-click">
-                <button onclick="myFunction2()" class="w3-button">Fare Class</button>
-                <div id="fareClass" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
-                    <a href="#" class="w3-bar-item w3-button">First Class</a>
-                    <a href="#" class="w3-bar-item w3-button">Business Class</a>
-                    <a href="#" class="w3-bar-item w3-button">Premium Economy</a>
-                </div>
-            </div>
+            <select name="Fare Class">
+                <option value="firstClass">First Class</option>
+                <option value="businessClass">Business Class</option>
+                <option value="premiumEcon">Premium Economy</option>
+            </select>
         </div>
         <div class="w3-display-bottomleft">
             <label>Origin</label>
@@ -83,10 +75,10 @@
 
     </div>
 
-    <div class="w3-container">
+    <div class="w3-container w3-center w3-margin">
         <input class="w3-button w3-green w3-round-xxlarge" type="button" value="Search Now">
     </div>
-
+</form>
 
 
     <script>
