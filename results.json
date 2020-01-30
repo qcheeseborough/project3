@@ -1,0 +1,314 @@
+[{
+		"Quotes": [{
+			"QuoteId": 1,
+			"MinPrice": 1142,
+			"Direct": false,
+			"OutboundLeg": [{
+				"CarrierIds": 1760,
+				"OriginId": 65698,
+				"DestinationId": 82337,
+				"DepartureDate": "2020-09-15T00:00:00"
+			}],
+			"QuoteDateTime": "2020-01-24T11:13:00"
+		}],
+		"Places": [{
+				"PlaceId": 65698,
+				"IataCode": "LHR",
+				"Name": "London Heathrow",
+				"Type": "Station",
+				"SkyscannerCode": "LHR",
+				"CityName": "London",
+				"CityId": "LOND",
+				"CountryName": "United Kingdom"
+			},
+			{
+				"PlaceId": 82337,
+				"IataCode": "SSA",
+				"Name": "Salvador",
+				"Type": "Station",
+				"SkyscannerCode": "SSA",
+				"CityName": "Salvador",
+				"CityId": "SSAA",
+				"CountryName": "Brazil"
+			}
+		],
+		"Carriers": [{
+				"CarrierId": 838,
+				"Name": "Air France"
+			},
+			{
+				"CarrierId": 858,
+				"Name": "Alitalia"
+			},
+			{
+				"CarrierId": 881,
+				"Name": "British Airways"
+			},
+			{
+				"CarrierId": 1760,
+				"Name": "TAP"
+			}
+		],
+		"Currencies": [{
+			"Code": "USD",
+			"Symbol": "$",
+			"ThousandsSeparator": ",",
+			"DecimalSeparator": ".",
+			"SymbolOnLeft": true,
+			"SpaceBetweenAmountAndSymbol": false,
+			"RoundingCoefficient": 0,
+			"DecimalDigits": 2
+		}]
+	},
+	{
+		"Quotes": [{
+			"QuoteId": 2,
+			"MinPrice": 366,
+			"Direct": false,
+			"OutboundLeg": [{
+				"CarrierIds": 858,
+				"OriginId": 44759,
+				"DestinationId": 54505,
+				"DepartureDate": "2020-04-30T00:00:00"
+			}],
+			"QuoteDateTime": "2020-01-28T09:56:00"
+		}],
+		"Places": [{
+				"PlaceId": 44759,
+				"IataCode": "CDG",
+				"Name": "Paris Charles de Gaulle",
+				"Type": "Station",
+				"SkyscannerCode": "CDG",
+				"CityName": "Paris",
+				"CityId": "PARI",
+				"CountryName": "France"
+			},
+			{
+				"PlaceId": 54505,
+				"IataCode": "GOI",
+				"Name": "Goa",
+				"Type": "Station",
+				"SkyscannerCode": "GOI",
+				"CityName": "Marmagao",
+				"CityId": "IGOI",
+				"CountryName": "India"
+			}
+		],
+		"Carriers": [{
+				"CarrierId": 858,
+				"Name": "Alitalia"
+			},
+			{
+				"CarrierId": 1384,
+				"Name": "SWISS"
+			},
+			{
+				"CarrierId": 1571,
+				"Name": "Ukraine International"
+			},
+			{
+				"CarrierId": 1618,
+				"Name": "Qatar Airways"
+			},
+			{
+				"CarrierId": 1913,
+				"Name": "Oman Air"
+			}
+		],
+		"Currencies": [{
+			"Code": "USD",
+			"Symbol": "$",
+			"ThousandsSeparator": ",",
+			"DecimalSeparator": ".",
+			"SymbolOnLeft": true,
+			"SpaceBetweenAmountAndSymbol": false,
+			"RoundingCoefficient": 0,
+			"DecimalDigits": 2
+		}]
+	}, {
+		"Quotes": [{
+			"QuoteId": 3,
+			"MinPrice": 444,
+			"Direct": false,
+			"OutboundLeg": [{
+				"CarrierIds": 1001,
+				"OriginId": 60987,
+				"DestinationId": 82337,
+				"DepartureDate": "2020-04-30T00:00:00"
+			}],
+			"QuoteDateTime": "2020-01-22T14:05:00"
+		}],
+		"Places": [{
+				"PlaceId": 60987,
+				"IataCode": "JFK",
+				"Name": "New York John F. Kennedy",
+				"Type": "Station",
+				"SkyscannerCode": "JFK",
+				"CityName": "New York",
+				"CityId": "NYCA",
+				"CountryName": "United States"
+			},
+			{
+				"PlaceId": 82337,
+				"IataCode": "SSA",
+				"Name": "Salvador",
+				"Type": "Station",
+				"SkyscannerCode": "SSA",
+				"CityName": "Salvador",
+				"CityId": "SSAA",
+				"CountryName": "Brazil"
+			}
+		],
+		"Carriers": [{
+				"CarrierId": 870,
+				"Name": "jetBlue"
+			},
+			{
+				"CarrierId": 1001,
+				"Name": "Norwegian"
+			}
+		],
+		"Currencies": [{
+			"Code": "USD",
+			"Symbol": "$",
+			"ThousandsSeparator": ",",
+			"DecimalSeparator": ".",
+			"SymbolOnLeft": true,
+			"SpaceBetweenAmountAndSymbol": false,
+			"RoundingCoefficient": 0,
+			"DecimalDigits": 2
+		}]
+	}, {
+		"Quotes": [{
+			"QuoteId": 4,
+			"MinPrice": 421,
+			"Direct": false,
+			"OutboundLeg": [{
+				"CarrierIds": 1361,
+				"OriginId": 82337,
+				"DestinationId": 44759,
+				"DepartureDate": "2020-04-30T00:00:00"
+			}],
+			"QuoteDateTime": "2020-01-29T18:30:00"
+		}],
+
+		"Places": [{
+				"PlaceId": 44759,
+				"IataCode": "CDG",
+				"Name": "Paris Charles de Gaulle",
+				"Type": "Station",
+				"SkyscannerCode": "CDG",
+				"CityName": "Paris",
+				"CityId": "PARI",
+				"CountryName": "France"
+			},
+			{
+				"PlaceId": 82337,
+				"IataCode": "SSA",
+				"Name": "Salvador",
+				"Type": "Station",
+				"SkyscannerCode": "SSA",
+				"CityName": "Salvador",
+				"CityId": "SSAA",
+				"CountryName": "Brazil"
+			}
+		],
+		"Carriers": [{
+				"CarrierId": 1107,
+				"Name": "GOL Linhas Aéreas"
+			},
+			{
+				"CarrierId": 1361,
+				"Name": "LATAM Airlines Group"
+			},
+			{
+				"CarrierId": 1760,
+				"Name": "TAP"
+			},
+			{
+				"CarrierId": 1816,
+				"Name": "Air Europa"
+			},
+			{
+				"CarrierId": 1858,
+				"Name": "TACV"
+			}
+		],
+		"Currencies": [{
+			"Code": "USD",
+			"Symbol": "$",
+			"ThousandsSeparator": ",",
+			"DecimalSeparator": ".",
+			"SymbolOnLeft": true,
+			"SpaceBetweenAmountAndSymbol": false,
+			"RoundingCoefficient": 0,
+			"DecimalDigits": 2
+		}]
+	}, {
+		"Quotes": [{
+			"QuoteId": 5,
+			"MinPrice": 1160,
+			"Direct": false,
+			"OutboundLeg": [{
+				"CarrierIds": 841,
+				"OriginId": 54505,
+				"DestinationId": 60987,
+				"DepartureDate": "2020-04-30T00:00:00"
+			}],
+
+			"QuoteDateTime": "2020-01-22T14:05:00"
+		}],
+		"Places": [{
+				"PlaceId": 54505,
+				"IataCode": "GOI",
+				"Name": "Goa",
+				"Type": "Station",
+				"SkyscannerCode": "GOI",
+				"CityName": "Marmagao",
+				"CityId": "IGOI",
+				"CountryName": "India"
+			},
+			{
+				"PlaceId": 60987,
+				"IataCode": "JFK",
+				"Name": "New York John F. Kennedy",
+				"Type": "Station",
+				"SkyscannerCode": "JFK",
+				"CityName": "New York",
+				"CityId": "NYCA",
+				"CountryName": "United States"
+			}
+		],
+		"Carriers": [{
+				"CarrierId": 841,
+				"Name": "Air India"
+			},
+			{
+				"CarrierId": 1112,
+				"Name": "GoAir"
+			},
+			{
+				"CarrierId": 1205,
+				"Name": "AirAsia India"
+			},
+			{
+				"CarrierId": 1618,
+				"Name": "Qatar Airways"
+			},
+			{
+				"CarrierId": 1703,
+				"Name": "SpiceJet"
+			}
+		],
+		"Currencies": [{
+			"Code": "USD",
+			"Symbol": "$",
+			"ThousandsSeparator": ",",
+			"DecimalSeparator": ".",
+			"SymbolOnLeft": true,
+			"SpaceBetweenAmountAndSymbol": false,
+			"RoundingCoefficient": 0,
+			"DecimalDigits": 2
+		}]
+	}
+]
