@@ -32,7 +32,7 @@
     </div>
     <!--    Flight Search Form Container -->
     <div class="w3-display-container" style="height:450px;">
-        <form action="dh.php" method="post">
+        <form action="submit.php" method="post" enctype="multipart/form-data">
             <div class="w3-display-topleft">
                 <div class="w3-panel w3-green">
                     <p>Fare Type</p>
@@ -116,7 +116,7 @@
             </div>
 
             <div class="w3-container w3-center w3-margin w3-display-bottommiddle">
-                <input class="w3-button w3-green w3-round-xxlarge" type="button" value="Search Now">
+                <input class="w3-button w3-green w3-round-xxlarge" type="submit" value="Search Now">
             </div>
         </form>
     </div>
@@ -124,28 +124,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- Ajax script from Eloy's repository-->
-    <!--
-    <script>
-        $("form").submit(function (e) {
-		var formData = new FormData($(this)[0]);
-		$.ajax({
-			url: "ajaxprocess.php",
-			type: "POST",
-			data: formData,
-			cache: false,
-			contentType: false,
-			processData: false,
-			success: function(){
-				console.log('got here');
-				cardloading();
-			}
-		});
-		e.preventDefault();
-	});
-    </script>
--->
-
+    
     <!--    Import axios library-->
     <!--    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
     <!--    Import IATA JavaScript file that will store the API call-->
